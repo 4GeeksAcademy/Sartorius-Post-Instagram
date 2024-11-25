@@ -1,0 +1,65 @@
+.post {
+  width: 350px;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+.icono {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nombre {
+  display: flex;
+  flex-direction: column;
+}
+
+.nombre .nombre {
+  font-size: 0.9em;
+  color: gray;
+}
+
+.puntos i {
+  font-size: 18px;
+  color: gray;
+}
+
+.post-image img {
+  display: block;
+  width: 100%;
+}
+
+.post-body {
+  padding: 10px 15px;
+}
+
+.post-icons {
+  display: flex;
+  align-items: center;
+}
+
+.save {
+  margin-left: auto;
+}
+
+.like-post {
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 0.9em;
+  line-height: 1.4;
+  color: #333;
+}
